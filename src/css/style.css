@@ -87,7 +87,7 @@ body,
     background-color: var(--VeryDarkGrayishBlue);
     position: absolute;
     top: -6.3rem;
-    right: -9.8rem;
+    right: -10rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -119,6 +119,10 @@ body,
 }
 .icon-active{
     cursor: pointer;
+}
+
+.icon-active-hide{
+    display: none;
 }
 
 .hide{
