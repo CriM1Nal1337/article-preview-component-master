@@ -1,0 +1,58 @@
+@media (max-width: 820px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .article-img {
+        width: 32rem;
+        border-top-right-radius: 1rem;
+        border-bottom-left-radius: 0;
+    }
+
+    .article {
+        width: 32rem;
+        padding: 2rem 4.5rem;
+    }
+
+    .article .title {
+        font-size: 1.4rem;
+    }
+
+    .article .p {
+        font-size: 1.2rem;
+    }
+
+    .article .avatar {
+        width: 4.5rem;
+    }
+
+    .article .name {
+        font-size: 1.2rem;
+    }
+
+    .article .date {
+        font-size: 1.2rem;
+    }
+
+    .share-active {
+        top: 0;
+        right: -4.5rem;
+        width: 32rem;
+        height: 7.7rem;
+        gap: 2.5rem;
+        border-radius: 0;
+        border-bottom-left-radius: 1rem;
+        border-bottom-right-radius: 1rem;
+    }
+
+    .share-active::before {
+        display: none;
+    }
+
+    #icon-share {
+        background-color: var(--DesaturatedDarkBlue);
+        color: white;
+        padding: 1rem;
+        border-radius: 4rem;
+    }
+}

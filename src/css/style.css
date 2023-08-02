@@ -1,0 +1,126 @@
+body {
+    height: 100vh;
+    background-color: var(--GrayishBlue);
+    font-family: 'Manrope', sans-serif;
+}
+
+body,
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    border-radius: 1rem;
+    background-color: var(--LightGrayishBlue);
+}
+
+.article-img{
+    display: flex;
+    width: 35rem;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.article{
+    display: flex;
+    flex-direction: column;
+    width: 45rem;
+    height: 28rem;
+    gap: 1rem;
+    padding: 3.2rem 4rem;
+}
+
+.article .title{
+    color: var(--VeryDarkGrayishBlue);
+    margin-bottom: 1rem;
+}
+
+.article .p{
+    color: var(--DesaturatedDarkBlue);
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
+
+.article .article-autor{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.article .autor{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.article .avatar{
+    width: 5rem;
+    border-radius: 4rem;
+}
+
+.article .name{
+    color: var(--VeryDarkGrayishBlue);
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+.article .date{
+    font-size: 1.3rem;
+    color: var(--DesaturatedDarkBlue);
+}
+
+.article .icon-share{
+    background-color: var(--GrayishBlue);
+    padding: 1rem;
+    border-radius: 4rem;
+    cursor: pointer;
+}
+
+.article .icon-share:hover{
+    background-color: var(--VeryDarkGrayishBlue);
+}
+
+.share-active{
+    background-color: var(--VeryDarkGrayishBlue);
+    position: absolute;
+    top: -6.3rem;
+    right: -9.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 2rem;
+    padding: 1.5rem 3rem;
+    border-radius: 1rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.share-active-icon{
+        background-color: var(--VeryDarkGrayishBlue);
+}
+
+.share-active::before {
+    content: "";
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    border-width: 10px;
+    border-style: solid;
+    border-color: var(--VeryDarkGrayishBlue) transparent transparent transparent;
+    transform: translateX(-50%);
+  }
+.share-active .p{
+    margin: 0;
+    font-weight: 700;
+    color: var(--GrayishBlue);
+}
+.icon-active{
+    cursor: pointer;
+}
+
+.hide{
+    display: none;
+}
