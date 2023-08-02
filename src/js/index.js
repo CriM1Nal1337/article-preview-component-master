@@ -13,7 +13,9 @@ iconShare.addEventListener("click", function() {
 function hideAndShow() {
   if (shareActive.classList.contains('hide')) {
     shareActive.classList.remove('hide');
+    share.classList.add('icon-share-active')
   } else {
     shareActive.classList.add('hide');
+    share.classList.remove('icon-share-active')
   }
 }

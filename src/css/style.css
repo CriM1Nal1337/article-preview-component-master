@@ -83,6 +83,10 @@ body,
     background-color: var(--VeryDarkGrayishBlue);
 }
 
+.article .icon-share-active{
+    background-color: var(--VeryDarkGrayishBlue);
+}
+
 .share-active{
     background-color: var(--VeryDarkGrayishBlue);
     position: absolute;
